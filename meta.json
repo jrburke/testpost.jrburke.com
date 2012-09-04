@@ -3,5 +3,12 @@
   "atomUrl": "http://testpost.jrburke.com/atom.xml",
   "title": "Test Posts",
   "author": "James Burke",
-  "published": []
+  "published": [
+    {
+      "title": "First post",
+      "path": "2012/09/03/first-post",
+      "postTime": 1346731764509,
+      "postIsoDate": "2012-09-04T04:09:24.509Z"
+    }
+  ]
 }

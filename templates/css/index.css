@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "adelle",Georgia,serif;
+    color: #222222;
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "ratio-display",verdana,sans-serif;
+    font-weight: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #221009;
+}
+
+a {
+    text-decoration: none;
+    color: #a63c00;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6c2700;
+}
+
+.header {
+    position: relative;
+    padding: 2em 0.2em;
+    background-color: #221009;
+    color: white;
+}
+
+.header h1 {
+    margin: 0 0 0 1em;
+    color: white;
+    background-color: #221009;
+}
+
+.header h1:before {
+    content: "<t> ";
+    color: #699476;
+}
+
+h1 a {
+    color: white;
+}
+
+.header .nav {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    text-align: right;
+    font-size: smaller;
+}
+
+.header .nav a {
+    display: block;
+}
+
+.sectionHeader {
+    position: relative;
+    padding: 1.2em 0;
+    background-color: #699476;
+    font-family: "ratio-display",verdana,sans-serif;
+}
+
+.sectionHeader h1 {
+    margin: 0 1em 0 1.9em;
+    color: white;
+    text-shadow: 0 1px #221009;
+    text-transform: lowercase;
+}
+
+.sectionHeader h1:before {
+    content: "> ";
+    color: #221009;
+}
+
+.sectionHeader .datetime {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    color: #a0baa8;
+    font-size: smaller;
+}
+
+.sectionContent {
+    margin: 2em 5.2em;
+}
+
+.summary {
+    margin: 2em 0 0 0;
+}
+
+.summary h2,
+.summary .datetime {
+    display: inline;
+}
+
+.summary h2 a {
+    color: #a63c00;
+}
+
+.summary .datetime {
+    color: gray;
+    font-size: smaller;
+}
+
+.separator {
+    margin: 0 0 1em 0;
+    color: gray;
+}
+
+/* media queries */
+
+@media (max-width: 480px) {
+
+    .header h1 {
+        margin: 0 0 0 0.2em;
+    }
+
+    .sectionHeader h1 {
+        margin: 0 0.2em;
+    }
+
+    .extendedTitle {
+        display: none;
+    }
+
+    .sectionContent {
+        margin: 0 0.5em;
+    }
+}

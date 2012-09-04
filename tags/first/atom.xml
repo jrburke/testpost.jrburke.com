@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title><![CDATA[Test Posts -- first]]></title>
+    <link href="http://testpost.jrburke.com/tags/first//atom.xml" rel="self"/>
+    <link href="http://testpost.jrburke.com/tags/first/"/>
+    <updated>2012-09-04T04:09:24.509Z</updated>
+    <id>http://testpost.jrburke.com/tags/first/</id>
+    <author>
+    <name><![CDATA[James Burke]]></name>
+    </author>
+
+    <entry>
+        <title type="html"><![CDATA[First post]]></title>
+        <link href="http://testpost.jrburke.com/2012/09/03/first-post/"/>
+        <updated>2012-09-04T04:09:24.509Z</updated>
+        <id>http://testpost.jrburke.com/2012/09/03/first-post/</id>
+        <content type="html"><![CDATA[<p>This is the first post for a test blog that is trying out a posting engine
+that uses JavaScript and GitHub.</p>
+
+<p>This first post will not be very fancy.</p>]]></content>
+    </entry>
+
+</feed>
